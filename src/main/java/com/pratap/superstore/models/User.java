@@ -1,13 +1,12 @@
 package com.pratap.superstore.models;
 
-import com.pratap.superstore.UserRole;
+import com.pratap.superstore.enums.UserRole;
 import com.pratap.superstore.dto.UserDTO;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Data;
-import lombok.Generated;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

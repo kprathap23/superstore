@@ -1,6 +1,6 @@
 package com.pratap.superstore.services.auth;
 
-import com.pratap.superstore.UserRole;
+import com.pratap.superstore.enums.UserRole;
 import com.pratap.superstore.dto.SignUpRequest;
 import com.pratap.superstore.dto.UserDTO;
 import com.pratap.superstore.models.User;

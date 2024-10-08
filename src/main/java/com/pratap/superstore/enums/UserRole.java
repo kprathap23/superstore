@@ -1,4 +1,4 @@
-package com.pratap.superstore;
+package com.pratap.superstore.enums;
 
 public enum UserRole {
 
